@@ -1,4 +1,6 @@
+
 import React, { useState, useEffect } from 'react';
+
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
@@ -66,6 +68,7 @@ export default function SignIn({ setName }) {
             label="ニックネーム"
             name="name"
             autoFocus
+ setName-by-clicking-button
             onChange={(e) => setString(e.target.value)}
           />
           <Button
