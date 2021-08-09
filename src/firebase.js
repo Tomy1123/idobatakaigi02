@@ -7,7 +7,7 @@ const {
   REACT_APP_FIREBASE_STORAGE_BUCKET,
   REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   REACT_APP_FIREBASE_APP_ID,
-} = process.env
+} = process.env;
 
 const firebaseConfig = {
   apiKey: REACT_APP_FIREBASE_API_KEY,
